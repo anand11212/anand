@@ -8,19 +8,33 @@
         body {
             font-family: 'Arial', sans-serif;
             text-align: center;
-            background-color: #ffe6f2;
+            background: linear-gradient(to bottom, #ff99cc, #ff66b2);
             color: #333;
+            background-attachment: fixed;
+            background-size: cover;
+            padding: 0;
+            margin: 0;
         }
         .container {
             margin-top: 50px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            color: #ff6699;
+            color: #ff3399;
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
         }
         p {
             font-size: 18px;
             max-width: 600px;
             margin: 0 auto;
+            line-height: 1.6;
+            color: #444;
         }
         .gallery {
             display: flex;
@@ -29,12 +43,16 @@
             margin-top: 20px;
         }
         .gallery img {
-            width: 200px;
-            height: 200px;
+            width: 220px;
+            height: 220px;
             object-fit: cover;
             border-radius: 10px;
             margin: 10px;
-            box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+            box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
         }
         footer {
             margin-top: 30px;
@@ -53,7 +71,7 @@
             Every laugh, every inside joke, and every late-night conversation is a memory I’ll always treasure. You were never just my best friend—you were and are a part of my family. 
             No matter what, you’ll always have a greatest place in my heart. 
             <br><br>
-           If this Made you smile then say hi, Anandiii - See it as a Chotu sa effort to make you happy. 💙
+            If this Made you smile then say hi, Anandiii - See it as a Chotu sa effort to make you happy. 💙
             <br><br>
             Suuuurrrrryyy if i ever hurted you or said something over limit - Don't you think you looks like Radha Rani 💫
         </p>
